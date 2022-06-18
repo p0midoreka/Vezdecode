@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>WEB 10</title>
+		<style>
+            
+			.N {
+                position: absolute; left: 800px; top: 300px;
+                width: 430px;height: 100px;
+            }
+            .F {
+                position: absolute; left: 800px; top: 350px;
+                width: 430px;height: 100px;
+            }
+            .MAIL {
+                position: absolute; left: 800px; top: 400px;
+                width: 430px;height: 100px;
+            }
+            .checkbox {
+                position: absolute; left: 840px; top: 450px;
+                width: 430px;height: 100px;
+            }
+            .button {
+                position: absolute; left: 780px; top: 500px;
+                width: 430px;height: 100px;
+            }
+		</style>
+	</head>
+	<body bgcolor="#000" background="background.jpg">
+        <form>
+            <p class="N"><input type="text" name="Имя" placeholder="Введите Имя" size="25" maxlength="20" required /></p>
+            <p class="F"><input type="text" name="Фамилия" placeholder="Введите Фамилию" size="25"  maxlength="25" required /></p>
+            <p class="MAIL"><input type="email" name="Почта" id="email" placeholder="Введите электронную почту" size="25" maxlength="25" required /></p>
+            <div class="checkbox">
+                <input type="checkbox" id="click">
+                <label for="click" class="text"> Запомнить меня </label>
+            </div>
+            <p class="button">
+                <button type="submit">Зарегистрироваться</button> 
+                <button type="reset">Авторизоваться</button>
+            </p>
+        </form>
+	</body>
+</html>
